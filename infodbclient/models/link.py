@@ -33,7 +33,7 @@ class Link(object):
                             and the value is json key in definition.
     """
     swagger_types = {
-        'url': 'str',
+        'id': 'int',
         'text': 'str',
         'comment': 'str',
         'scheme': 'str',
@@ -42,11 +42,11 @@ class Link(object):
         'edition': 'str',
         'publisher': 'str',
         'publishing_time': 'str',
-        'tag': 'list[str]'
+        'tag': 'list[int]'
     }
 
     attribute_map = {
-        'url': 'url',
+        'id': 'id',
         'text': 'text',
         'comment': 'comment',
         'scheme': 'scheme',
@@ -58,13 +58,13 @@ class Link(object):
         'tag': 'tag'
     }
 
-    def __init__(self, url=None, text=None, comment=None, scheme=None, base=None, path=None, edition=None, publisher=None, publishing_time=None, tag=None, _configuration=None):  # noqa: E501
+    def __init__(self, id=None, text=None, comment=None, scheme=None, base=None, path=None, edition=None, publisher=None, publishing_time=None, tag=None, _configuration=None):  # noqa: E501
         """Link - a model defined in Swagger"""  # noqa: E501
         if _configuration is None:
             _configuration = Configuration()
         self._configuration = _configuration
 
-        self._url = None
+        self._id = None
         self._text = None
         self._comment = None
         self._scheme = None
@@ -76,8 +76,8 @@ class Link(object):
         self._tag = None
         self.discriminator = None
 
-        if url is not None:
-            self.url = url
+        if id is not None:
+            self.id = id
         self.text = text
         self.comment = comment
         self.scheme = scheme
@@ -90,25 +90,25 @@ class Link(object):
             self.tag = tag
 
     @property
-    def url(self):
-        """Gets the url of this Link.  # noqa: E501
+    def id(self):
+        """Gets the id of this Link.  # noqa: E501
 
 
-        :return: The url of this Link.  # noqa: E501
-        :rtype: str
+        :return: The id of this Link.  # noqa: E501
+        :rtype: int
         """
-        return self._url
+        return self._id
 
-    @url.setter
-    def url(self, url):
-        """Sets the url of this Link.
+    @id.setter
+    def id(self, id):
+        """Sets the id of this Link.
 
 
-        :param url: The url of this Link.  # noqa: E501
-        :type: str
+        :param id: The id of this Link.  # noqa: E501
+        :type: int
         """
 
-        self._url = url
+        self._id = id
 
     @property
     def text(self):
@@ -324,7 +324,7 @@ class Link(object):
 
 
         :return: The tag of this Link.  # noqa: E501
-        :rtype: list[str]
+        :rtype: list[int]
         """
         return self._tag
 
@@ -334,7 +334,7 @@ class Link(object):
 
 
         :param tag: The tag of this Link.  # noqa: E501
-        :type: list[str]
+        :type: list[int]
         """
 
         self._tag = tag

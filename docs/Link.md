@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**url** | **str** |  | [optional] 
+**id** | **int** |  | [optional] 
 **text** | **str** |  | 
 **comment** | **str** |  | 
 **scheme** | **str** |  | 
@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 **edition** | **str** |  | 
 **publisher** | **str** |  | 
 **publishing_time** | **str** |  | 
-**tag** | **list[str]** |  | [optional] 
+**tag** | **list[int]** |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

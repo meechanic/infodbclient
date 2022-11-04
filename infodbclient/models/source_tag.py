@@ -33,53 +33,53 @@ class SourceTag(object):
                             and the value is json key in definition.
     """
     swagger_types = {
-        'url': 'str',
+        'id': 'int',
         'name': 'str',
         'type': 'str'
     }
 
     attribute_map = {
-        'url': 'url',
+        'id': 'id',
         'name': 'name',
         'type': 'type'
     }
 
-    def __init__(self, url=None, name=None, type=None, _configuration=None):  # noqa: E501
+    def __init__(self, id=None, name=None, type=None, _configuration=None):  # noqa: E501
         """SourceTag - a model defined in Swagger"""  # noqa: E501
         if _configuration is None:
             _configuration = Configuration()
         self._configuration = _configuration
 
-        self._url = None
+        self._id = None
         self._name = None
         self._type = None
         self.discriminator = None
 
-        if url is not None:
-            self.url = url
+        if id is not None:
+            self.id = id
         self.name = name
         self.type = type
 
     @property
-    def url(self):
-        """Gets the url of this SourceTag.  # noqa: E501
+    def id(self):
+        """Gets the id of this SourceTag.  # noqa: E501
 
 
-        :return: The url of this SourceTag.  # noqa: E501
-        :rtype: str
+        :return: The id of this SourceTag.  # noqa: E501
+        :rtype: int
         """
-        return self._url
+        return self._id
 
-    @url.setter
-    def url(self, url):
-        """Sets the url of this SourceTag.
+    @id.setter
+    def id(self, id):
+        """Sets the id of this SourceTag.
 
 
-        :param url: The url of this SourceTag.  # noqa: E501
-        :type: str
+        :param id: The id of this SourceTag.  # noqa: E501
+        :type: int
         """
 
-        self._url = url
+        self._id = id
 
     @property
     def name(self):
