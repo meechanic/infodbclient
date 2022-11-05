@@ -29,14 +29,17 @@ def parse_args(argv):
     subparser_sourcetags.add_argument("--action", type=str, help="Possible actions: list | get")
     subparser_sourcetags.add_argument("--profile", type=str, help="Config profile")
     subparser_sourcetags.add_argument("--id", type=str, help="Entity ID")
+    subparser_sourcetags.add_argument("--input-file", type=str, help="Input file")
     subparser_links = subparsers.add_parser("links", help="Utilities for work with Links")
     subparser_links.add_argument("--action", type=str, help="Possible actions: list | get")
     subparser_links.add_argument("--profile", type=str, help="Config profile")
     subparser_links.add_argument("--id", type=str, help="Entity ID")
+    subparser_links.add_argument("--input-file", type=str, help="Input file")
     subparser_sources = subparsers.add_parser("sources", help="Utilities for work with Sources")
     subparser_sources.add_argument("--action", type=str, help="Possible actions: list | get")
     subparser_sources.add_argument("--profile", type=str, help="Config profile")
     subparser_sources.add_argument("--id", type=str, help="Entity ID")
+    subparser_sources.add_argument("--input-file", type=str, help="Input file")
     return parent_parser.parse_args(sys.argv[1:])
 
 
