@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1343751-26f7-4940-ad28-70a593918dfc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/infodbcli.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/infodbcli.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Link.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Link.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/LinkTag.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/LinkTag.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Source.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Source.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SourceTag.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/SourceTag.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infodbclient/helpers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/infodbclient/models/link.py" beforeDir="false" afterPath="$PROJECT_DIR$/infodbclient/models/link.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infodbclient/models/link_tag.py" beforeDir="false" afterPath="$PROJECT_DIR$/infodbclient/models/link_tag.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infodbclient/models/source.py" beforeDir="false" afterPath="$PROJECT_DIR$/infodbclient/models/source.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infodbclient/models/source_tag.py" beforeDir="false" afterPath="$PROJECT_DIR$/infodbclient/models/source_tag.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +24,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../infodb/infodb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
