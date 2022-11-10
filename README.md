@@ -76,39 +76,32 @@ All URIs are relative to *http://localhost:8002*
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
 *ApiTokenAuthApi* | [**api_token_auth_create**](docs/ApiTokenAuthApi.md#api_token_auth_create) | **POST** /api-token-auth/ | 
-*ApilinksApi* | [**apilinks_create**](docs/ApilinksApi.md#apilinks_create) | **POST** /apilinks/ | 
-*ApilinksApi* | [**apilinks_delete**](docs/ApilinksApi.md#apilinks_delete) | **DELETE** /apilinks/{id}/ | 
-*ApilinksApi* | [**apilinks_list**](docs/ApilinksApi.md#apilinks_list) | **GET** /apilinks/ | 
-*ApilinksApi* | [**apilinks_partial_update**](docs/ApilinksApi.md#apilinks_partial_update) | **PATCH** /apilinks/{id}/ | 
-*ApilinksApi* | [**apilinks_read**](docs/ApilinksApi.md#apilinks_read) | **GET** /apilinks/{id}/ | 
-*ApilinksApi* | [**apilinks_update**](docs/ApilinksApi.md#apilinks_update) | **PUT** /apilinks/{id}/ | 
-*ApilinktagsApi* | [**apilinktags_create**](docs/ApilinktagsApi.md#apilinktags_create) | **POST** /apilinktags/ | 
-*ApilinktagsApi* | [**apilinktags_delete**](docs/ApilinktagsApi.md#apilinktags_delete) | **DELETE** /apilinktags/{id}/ | 
-*ApilinktagsApi* | [**apilinktags_list**](docs/ApilinktagsApi.md#apilinktags_list) | **GET** /apilinktags/ | 
-*ApilinktagsApi* | [**apilinktags_partial_update**](docs/ApilinktagsApi.md#apilinktags_partial_update) | **PATCH** /apilinktags/{id}/ | 
-*ApilinktagsApi* | [**apilinktags_read**](docs/ApilinktagsApi.md#apilinktags_read) | **GET** /apilinktags/{id}/ | 
-*ApilinktagsApi* | [**apilinktags_update**](docs/ApilinktagsApi.md#apilinktags_update) | **PUT** /apilinktags/{id}/ | 
-*ApisourcesApi* | [**apisources_create**](docs/ApisourcesApi.md#apisources_create) | **POST** /apisources/ | 
-*ApisourcesApi* | [**apisources_delete**](docs/ApisourcesApi.md#apisources_delete) | **DELETE** /apisources/{id}/ | 
-*ApisourcesApi* | [**apisources_list**](docs/ApisourcesApi.md#apisources_list) | **GET** /apisources/ | 
-*ApisourcesApi* | [**apisources_partial_update**](docs/ApisourcesApi.md#apisources_partial_update) | **PATCH** /apisources/{id}/ | 
-*ApisourcesApi* | [**apisources_read**](docs/ApisourcesApi.md#apisources_read) | **GET** /apisources/{id}/ | 
-*ApisourcesApi* | [**apisources_update**](docs/ApisourcesApi.md#apisources_update) | **PUT** /apisources/{id}/ | 
-*ApisourcetagsApi* | [**apisourcetags_create**](docs/ApisourcetagsApi.md#apisourcetags_create) | **POST** /apisourcetags/ | 
-*ApisourcetagsApi* | [**apisourcetags_delete**](docs/ApisourcetagsApi.md#apisourcetags_delete) | **DELETE** /apisourcetags/{id}/ | 
-*ApisourcetagsApi* | [**apisourcetags_list**](docs/ApisourcetagsApi.md#apisourcetags_list) | **GET** /apisourcetags/ | 
-*ApisourcetagsApi* | [**apisourcetags_partial_update**](docs/ApisourcetagsApi.md#apisourcetags_partial_update) | **PATCH** /apisourcetags/{id}/ | 
-*ApisourcetagsApi* | [**apisourcetags_read**](docs/ApisourcetagsApi.md#apisourcetags_read) | **GET** /apisourcetags/{id}/ | 
-*ApisourcetagsApi* | [**apisourcetags_update**](docs/ApisourcetagsApi.md#apisourcetags_update) | **PUT** /apisourcetags/{id}/ | 
+*ApieditionsApi* | [**apieditions_create**](docs/ApieditionsApi.md#apieditions_create) | **POST** /apieditions/ | 
+*ApieditionsApi* | [**apieditions_delete**](docs/ApieditionsApi.md#apieditions_delete) | **DELETE** /apieditions/{id}/ | 
+*ApieditionsApi* | [**apieditions_list**](docs/ApieditionsApi.md#apieditions_list) | **GET** /apieditions/ | 
+*ApieditionsApi* | [**apieditions_partial_update**](docs/ApieditionsApi.md#apieditions_partial_update) | **PATCH** /apieditions/{id}/ | 
+*ApieditionsApi* | [**apieditions_read**](docs/ApieditionsApi.md#apieditions_read) | **GET** /apieditions/{id}/ | 
+*ApieditionsApi* | [**apieditions_update**](docs/ApieditionsApi.md#apieditions_update) | **PUT** /apieditions/{id}/ | 
+*ApiinfsourcesApi* | [**apiinfsources_create**](docs/ApiinfsourcesApi.md#apiinfsources_create) | **POST** /apiinfsources/ | 
+*ApiinfsourcesApi* | [**apiinfsources_delete**](docs/ApiinfsourcesApi.md#apiinfsources_delete) | **DELETE** /apiinfsources/{id}/ | 
+*ApiinfsourcesApi* | [**apiinfsources_list**](docs/ApiinfsourcesApi.md#apiinfsources_list) | **GET** /apiinfsources/ | 
+*ApiinfsourcesApi* | [**apiinfsources_partial_update**](docs/ApiinfsourcesApi.md#apiinfsources_partial_update) | **PATCH** /apiinfsources/{id}/ | 
+*ApiinfsourcesApi* | [**apiinfsources_read**](docs/ApiinfsourcesApi.md#apiinfsources_read) | **GET** /apiinfsources/{id}/ | 
+*ApiinfsourcesApi* | [**apiinfsources_update**](docs/ApiinfsourcesApi.md#apiinfsources_update) | **PUT** /apiinfsources/{id}/ | 
+*ApiresourcesApi* | [**apiresources_create**](docs/ApiresourcesApi.md#apiresources_create) | **POST** /apiresources/ | 
+*ApiresourcesApi* | [**apiresources_delete**](docs/ApiresourcesApi.md#apiresources_delete) | **DELETE** /apiresources/{id}/ | 
+*ApiresourcesApi* | [**apiresources_list**](docs/ApiresourcesApi.md#apiresources_list) | **GET** /apiresources/ | 
+*ApiresourcesApi* | [**apiresources_partial_update**](docs/ApiresourcesApi.md#apiresources_partial_update) | **PATCH** /apiresources/{id}/ | 
+*ApiresourcesApi* | [**apiresources_read**](docs/ApiresourcesApi.md#apiresources_read) | **GET** /apiresources/{id}/ | 
+*ApiresourcesApi* | [**apiresources_update**](docs/ApiresourcesApi.md#apiresources_update) | **PUT** /apiresources/{id}/ | 
 
 
 ## Documentation For Models
 
  - [AuthToken](docs/AuthToken.md)
- - [Link](docs/Link.md)
- - [LinkTag](docs/LinkTag.md)
- - [Source](docs/Source.md)
- - [SourceTag](docs/SourceTag.md)
+ - [Edition](docs/Edition.md)
+ - [Infsource](docs/Infsource.md)
+ - [Resource](docs/Resource.md)
 
 
 ## Documentation For Authorization

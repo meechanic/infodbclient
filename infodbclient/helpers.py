@@ -17,7 +17,7 @@ def eprint_exception(e, print_traceback=True, need_exit=True):
         exit(1)
 
 
-class IDBCHelper:
+class PDBCHelper:
 
     def __init__(self, args):
         self.args = args
@@ -52,30 +52,24 @@ class IDBCHelper:
                                      self.get_current_conf_value("port"),
                                      self.get_current_conf_value("path"))
 
-    def get_linktags_api_instance(self):
+    def get_infsources_api_instance(self):
         configuration = infodbclient.Configuration()
         configuration.host = self.get_current_conf_url()
         configuration.api_key["Authorization"] = self.get_current_conf_value("token")
         configuration.api_key_prefix["Authorization"] = "Token"
-        return infodbclient.ApilinktagsApi(infodbclient.ApiClient(configuration))
+        return infodbclient.ApiinfsourcesApi(infodbclient.ApiClient(configuration))
 
-    def get_sourcetags_api_instance(self):
+    def get_editions_api_instance(self):
         configuration = infodbclient.Configuration()
         configuration.host = self.get_current_conf_url()
         configuration.api_key["Authorization"] = self.get_current_conf_value("token")
         configuration.api_key_prefix["Authorization"] = "Token"
-        return infodbclient.ApisourcetagsApi(infodbclient.ApiClient(configuration))
+        return infodbclient.ApieditionsApi(infodbclient.ApiClient(configuration))
 
-    def get_links_api_instance(self):
+    def get_resources_api_instance(self):
         configuration = infodbclient.Configuration()
         configuration.host = self.get_current_conf_url()
         configuration.api_key["Authorization"] = self.get_current_conf_value("token")
         configuration.api_key_prefix["Authorization"] = "Token"
-        return infodbclient.ApilinksApi(infodbclient.ApiClient(configuration))
+        return infodbclient.ApiresourcesApi(infodbclient.ApiClient(configuration))
 
-    def get_sources_api_instance(self):
-        configuration = infodbclient.Configuration()
-        configuration.host = self.get_current_conf_url()
-        configuration.api_key["Authorization"] = self.get_current_conf_value("token")
-        configuration.api_key_prefix["Authorization"] = "Token"
-        return infodbclient.ApisourcesApi(infodbclient.ApiClient(configuration))

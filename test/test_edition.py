@@ -16,12 +16,12 @@ from __future__ import absolute_import
 import unittest
 
 import infodbclient
-from infodbclient.models.link_tag import LinkTag  # noqa: E501
+from infodbclient.models.edition import Edition  # noqa: E501
 from infodbclient.rest import ApiException
 
 
-class TestLinkTag(unittest.TestCase):
-    """LinkTag unit test stubs"""
+class TestEdition(unittest.TestCase):
+    """Edition unit test stubs"""
 
     def setUp(self):
         pass
@@ -29,10 +29,10 @@ class TestLinkTag(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def testLinkTag(self):
-        """Test LinkTag"""
+    def testEdition(self):
+        """Test Edition"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = infodbclient.models.link_tag.LinkTag()  # noqa: E501
+        # model = infodbclient.models.edition.Edition()  # noqa: E501
         pass
 
 

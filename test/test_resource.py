@@ -16,12 +16,12 @@ from __future__ import absolute_import
 import unittest
 
 import infodbclient
-from infodbclient.models.source_tag import SourceTag  # noqa: E501
+from infodbclient.models.resource import Resource  # noqa: E501
 from infodbclient.rest import ApiException
 
 
-class TestSourceTag(unittest.TestCase):
-    """SourceTag unit test stubs"""
+class TestResource(unittest.TestCase):
+    """Resource unit test stubs"""
 
     def setUp(self):
         pass
@@ -29,10 +29,10 @@ class TestSourceTag(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def testSourceTag(self):
-        """Test SourceTag"""
+    def testResource(self):
+        """Test Resource"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = infodbclient.models.source_tag.SourceTag()  # noqa: E501
+        # model = infodbclient.models.resource.Resource()  # noqa: E501
         pass
 
 

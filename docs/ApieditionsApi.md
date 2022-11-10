@@ -1,19 +1,19 @@
-# infodbclient.ApisourcetagsApi
+# infodbclient.ApieditionsApi
 
 All URIs are relative to *http://localhost:8002*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**apisourcetags_create**](ApisourcetagsApi.md#apisourcetags_create) | **POST** /apisourcetags/ | 
-[**apisourcetags_delete**](ApisourcetagsApi.md#apisourcetags_delete) | **DELETE** /apisourcetags/{id}/ | 
-[**apisourcetags_list**](ApisourcetagsApi.md#apisourcetags_list) | **GET** /apisourcetags/ | 
-[**apisourcetags_partial_update**](ApisourcetagsApi.md#apisourcetags_partial_update) | **PATCH** /apisourcetags/{id}/ | 
-[**apisourcetags_read**](ApisourcetagsApi.md#apisourcetags_read) | **GET** /apisourcetags/{id}/ | 
-[**apisourcetags_update**](ApisourcetagsApi.md#apisourcetags_update) | **PUT** /apisourcetags/{id}/ | 
+[**apieditions_create**](ApieditionsApi.md#apieditions_create) | **POST** /apieditions/ | 
+[**apieditions_delete**](ApieditionsApi.md#apieditions_delete) | **DELETE** /apieditions/{id}/ | 
+[**apieditions_list**](ApieditionsApi.md#apieditions_list) | **GET** /apieditions/ | 
+[**apieditions_partial_update**](ApieditionsApi.md#apieditions_partial_update) | **PATCH** /apieditions/{id}/ | 
+[**apieditions_read**](ApieditionsApi.md#apieditions_read) | **GET** /apieditions/{id}/ | 
+[**apieditions_update**](ApieditionsApi.md#apieditions_update) | **PUT** /apieditions/{id}/ | 
 
 
-# **apisourcetags_create**
-> SourceTag apisourcetags_create(data)
+# **apieditions_create**
+> Edition apieditions_create(data)
 
 
 
@@ -34,25 +34,25 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = infodbclient.ApisourcetagsApi(infodbclient.ApiClient(configuration))
-data = infodbclient.SourceTag() # SourceTag | 
+api_instance = infodbclient.ApieditionsApi(infodbclient.ApiClient(configuration))
+data = infodbclient.Edition() # Edition | 
 
 try:
-    api_response = api_instance.apisourcetags_create(data)
+    api_response = api_instance.apieditions_create(data)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ApisourcetagsApi->apisourcetags_create: %s\n" % e)
+    print("Exception when calling ApieditionsApi->apieditions_create: %s\n" % e)
 ```
 
 ### Parameters
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **data** | [**SourceTag**](SourceTag.md)|  | 
+ **data** | [**Edition**](Edition.md)|  | 
 
 ### Return type
 
-[**SourceTag**](SourceTag.md)
+[**Edition**](Edition.md)
 
 ### Authorization
 
@@ -65,8 +65,8 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **apisourcetags_delete**
-> apisourcetags_delete(id)
+# **apieditions_delete**
+> apieditions_delete(id)
 
 
 
@@ -87,20 +87,20 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = infodbclient.ApisourcetagsApi(infodbclient.ApiClient(configuration))
-id = 56 # int | A unique integer value identifying this source tag.
+api_instance = infodbclient.ApieditionsApi(infodbclient.ApiClient(configuration))
+id = 56 # int | A unique integer value identifying this edition.
 
 try:
-    api_instance.apisourcetags_delete(id)
+    api_instance.apieditions_delete(id)
 except ApiException as e:
-    print("Exception when calling ApisourcetagsApi->apisourcetags_delete: %s\n" % e)
+    print("Exception when calling ApieditionsApi->apieditions_delete: %s\n" % e)
 ```
 
 ### Parameters
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **int**| A unique integer value identifying this source tag. | 
+ **id** | **int**| A unique integer value identifying this edition. | 
 
 ### Return type
 
@@ -117,8 +117,8 @@ void (empty response body)
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **apisourcetags_list**
-> list[SourceTag] apisourcetags_list(name=name, search=search, ordering=ordering)
+# **apieditions_list**
+> list[Edition] apieditions_list(name=name, search=search, ordering=ordering)
 
 
 
@@ -139,16 +139,16 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = infodbclient.ApisourcetagsApi(infodbclient.ApiClient(configuration))
+api_instance = infodbclient.ApieditionsApi(infodbclient.ApiClient(configuration))
 name = 'name_example' # str |  (optional)
 search = 'search_example' # str | A search term. (optional)
 ordering = 'ordering_example' # str | Which field to use when ordering the results. (optional)
 
 try:
-    api_response = api_instance.apisourcetags_list(name=name, search=search, ordering=ordering)
+    api_response = api_instance.apieditions_list(name=name, search=search, ordering=ordering)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ApisourcetagsApi->apisourcetags_list: %s\n" % e)
+    print("Exception when calling ApieditionsApi->apieditions_list: %s\n" % e)
 ```
 
 ### Parameters
@@ -161,7 +161,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**list[SourceTag]**](SourceTag.md)
+[**list[Edition]**](Edition.md)
 
 ### Authorization
 
@@ -174,8 +174,8 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **apisourcetags_partial_update**
-> SourceTag apisourcetags_partial_update(id, data)
+# **apieditions_partial_update**
+> Edition apieditions_partial_update(id, data)
 
 
 
@@ -196,27 +196,27 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = infodbclient.ApisourcetagsApi(infodbclient.ApiClient(configuration))
-id = 56 # int | A unique integer value identifying this source tag.
-data = infodbclient.SourceTag() # SourceTag | 
+api_instance = infodbclient.ApieditionsApi(infodbclient.ApiClient(configuration))
+id = 56 # int | A unique integer value identifying this edition.
+data = infodbclient.Edition() # Edition | 
 
 try:
-    api_response = api_instance.apisourcetags_partial_update(id, data)
+    api_response = api_instance.apieditions_partial_update(id, data)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ApisourcetagsApi->apisourcetags_partial_update: %s\n" % e)
+    print("Exception when calling ApieditionsApi->apieditions_partial_update: %s\n" % e)
 ```
 
 ### Parameters
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **int**| A unique integer value identifying this source tag. | 
- **data** | [**SourceTag**](SourceTag.md)|  | 
+ **id** | **int**| A unique integer value identifying this edition. | 
+ **data** | [**Edition**](Edition.md)|  | 
 
 ### Return type
 
-[**SourceTag**](SourceTag.md)
+[**Edition**](Edition.md)
 
 ### Authorization
 
@@ -229,8 +229,8 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **apisourcetags_read**
-> SourceTag apisourcetags_read(id)
+# **apieditions_read**
+> Edition apieditions_read(id)
 
 
 
@@ -251,25 +251,25 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = infodbclient.ApisourcetagsApi(infodbclient.ApiClient(configuration))
-id = 56 # int | A unique integer value identifying this source tag.
+api_instance = infodbclient.ApieditionsApi(infodbclient.ApiClient(configuration))
+id = 56 # int | A unique integer value identifying this edition.
 
 try:
-    api_response = api_instance.apisourcetags_read(id)
+    api_response = api_instance.apieditions_read(id)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ApisourcetagsApi->apisourcetags_read: %s\n" % e)
+    print("Exception when calling ApieditionsApi->apieditions_read: %s\n" % e)
 ```
 
 ### Parameters
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **int**| A unique integer value identifying this source tag. | 
+ **id** | **int**| A unique integer value identifying this edition. | 
 
 ### Return type
 
-[**SourceTag**](SourceTag.md)
+[**Edition**](Edition.md)
 
 ### Authorization
 
@@ -282,8 +282,8 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **apisourcetags_update**
-> SourceTag apisourcetags_update(id, data)
+# **apieditions_update**
+> Edition apieditions_update(id, data)
 
 
 
@@ -304,27 +304,27 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = infodbclient.ApisourcetagsApi(infodbclient.ApiClient(configuration))
-id = 56 # int | A unique integer value identifying this source tag.
-data = infodbclient.SourceTag() # SourceTag | 
+api_instance = infodbclient.ApieditionsApi(infodbclient.ApiClient(configuration))
+id = 56 # int | A unique integer value identifying this edition.
+data = infodbclient.Edition() # Edition | 
 
 try:
-    api_response = api_instance.apisourcetags_update(id, data)
+    api_response = api_instance.apieditions_update(id, data)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ApisourcetagsApi->apisourcetags_update: %s\n" % e)
+    print("Exception when calling ApieditionsApi->apieditions_update: %s\n" % e)
 ```
 
 ### Parameters
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **int**| A unique integer value identifying this source tag. | 
- **data** | [**SourceTag**](SourceTag.md)|  | 
+ **id** | **int**| A unique integer value identifying this edition. | 
+ **data** | [**Edition**](Edition.md)|  | 
 
 ### Return type
 
-[**SourceTag**](SourceTag.md)
+[**Edition**](Edition.md)
 
 ### Authorization
 

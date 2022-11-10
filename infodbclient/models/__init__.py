@@ -16,7 +16,6 @@ from __future__ import absolute_import
 
 # import models into model package
 from infodbclient.models.auth_token import AuthToken
-from infodbclient.models.link import Link
-from infodbclient.models.link_tag import LinkTag
-from infodbclient.models.source import Source
-from infodbclient.models.source_tag import SourceTag
+from infodbclient.models.edition import Edition
+from infodbclient.models.infsource import Infsource
+from infodbclient.models.resource import Resource

@@ -1,19 +1,19 @@
-# infodbclient.ApilinksApi
+# infodbclient.ApiresourcesApi
 
 All URIs are relative to *http://localhost:8002*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**apilinks_create**](ApilinksApi.md#apilinks_create) | **POST** /apilinks/ | 
-[**apilinks_delete**](ApilinksApi.md#apilinks_delete) | **DELETE** /apilinks/{id}/ | 
-[**apilinks_list**](ApilinksApi.md#apilinks_list) | **GET** /apilinks/ | 
-[**apilinks_partial_update**](ApilinksApi.md#apilinks_partial_update) | **PATCH** /apilinks/{id}/ | 
-[**apilinks_read**](ApilinksApi.md#apilinks_read) | **GET** /apilinks/{id}/ | 
-[**apilinks_update**](ApilinksApi.md#apilinks_update) | **PUT** /apilinks/{id}/ | 
+[**apiresources_create**](ApiresourcesApi.md#apiresources_create) | **POST** /apiresources/ | 
+[**apiresources_delete**](ApiresourcesApi.md#apiresources_delete) | **DELETE** /apiresources/{id}/ | 
+[**apiresources_list**](ApiresourcesApi.md#apiresources_list) | **GET** /apiresources/ | 
+[**apiresources_partial_update**](ApiresourcesApi.md#apiresources_partial_update) | **PATCH** /apiresources/{id}/ | 
+[**apiresources_read**](ApiresourcesApi.md#apiresources_read) | **GET** /apiresources/{id}/ | 
+[**apiresources_update**](ApiresourcesApi.md#apiresources_update) | **PUT** /apiresources/{id}/ | 
 
 
-# **apilinks_create**
-> Link apilinks_create(data)
+# **apiresources_create**
+> Resource apiresources_create(data)
 
 
 
@@ -34,25 +34,25 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = infodbclient.ApilinksApi(infodbclient.ApiClient(configuration))
-data = infodbclient.Link() # Link | 
+api_instance = infodbclient.ApiresourcesApi(infodbclient.ApiClient(configuration))
+data = infodbclient.Resource() # Resource | 
 
 try:
-    api_response = api_instance.apilinks_create(data)
+    api_response = api_instance.apiresources_create(data)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ApilinksApi->apilinks_create: %s\n" % e)
+    print("Exception when calling ApiresourcesApi->apiresources_create: %s\n" % e)
 ```
 
 ### Parameters
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **data** | [**Link**](Link.md)|  | 
+ **data** | [**Resource**](Resource.md)|  | 
 
 ### Return type
 
-[**Link**](Link.md)
+[**Resource**](Resource.md)
 
 ### Authorization
 
@@ -65,8 +65,8 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **apilinks_delete**
-> apilinks_delete(id)
+# **apiresources_delete**
+> apiresources_delete(id)
 
 
 
@@ -87,20 +87,20 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = infodbclient.ApilinksApi(infodbclient.ApiClient(configuration))
-id = 56 # int | A unique integer value identifying this link.
+api_instance = infodbclient.ApiresourcesApi(infodbclient.ApiClient(configuration))
+id = 56 # int | A unique integer value identifying this resource.
 
 try:
-    api_instance.apilinks_delete(id)
+    api_instance.apiresources_delete(id)
 except ApiException as e:
-    print("Exception when calling ApilinksApi->apilinks_delete: %s\n" % e)
+    print("Exception when calling ApiresourcesApi->apiresources_delete: %s\n" % e)
 ```
 
 ### Parameters
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **int**| A unique integer value identifying this link. | 
+ **id** | **int**| A unique integer value identifying this resource. | 
 
 ### Return type
 
@@ -117,8 +117,8 @@ void (empty response body)
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **apilinks_list**
-> list[Link] apilinks_list(text=text, search=search, ordering=ordering)
+# **apiresources_list**
+> list[Resource] apiresources_list(text=text, search=search, ordering=ordering)
 
 
 
@@ -139,16 +139,16 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = infodbclient.ApilinksApi(infodbclient.ApiClient(configuration))
+api_instance = infodbclient.ApiresourcesApi(infodbclient.ApiClient(configuration))
 text = 'text_example' # str |  (optional)
 search = 'search_example' # str | A search term. (optional)
 ordering = 'ordering_example' # str | Which field to use when ordering the results. (optional)
 
 try:
-    api_response = api_instance.apilinks_list(text=text, search=search, ordering=ordering)
+    api_response = api_instance.apiresources_list(text=text, search=search, ordering=ordering)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ApilinksApi->apilinks_list: %s\n" % e)
+    print("Exception when calling ApiresourcesApi->apiresources_list: %s\n" % e)
 ```
 
 ### Parameters
@@ -161,7 +161,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**list[Link]**](Link.md)
+[**list[Resource]**](Resource.md)
 
 ### Authorization
 
@@ -174,8 +174,8 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **apilinks_partial_update**
-> Link apilinks_partial_update(id, data)
+# **apiresources_partial_update**
+> Resource apiresources_partial_update(id, data)
 
 
 
@@ -196,27 +196,27 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = infodbclient.ApilinksApi(infodbclient.ApiClient(configuration))
-id = 56 # int | A unique integer value identifying this link.
-data = infodbclient.Link() # Link | 
+api_instance = infodbclient.ApiresourcesApi(infodbclient.ApiClient(configuration))
+id = 56 # int | A unique integer value identifying this resource.
+data = infodbclient.Resource() # Resource | 
 
 try:
-    api_response = api_instance.apilinks_partial_update(id, data)
+    api_response = api_instance.apiresources_partial_update(id, data)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ApilinksApi->apilinks_partial_update: %s\n" % e)
+    print("Exception when calling ApiresourcesApi->apiresources_partial_update: %s\n" % e)
 ```
 
 ### Parameters
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **int**| A unique integer value identifying this link. | 
- **data** | [**Link**](Link.md)|  | 
+ **id** | **int**| A unique integer value identifying this resource. | 
+ **data** | [**Resource**](Resource.md)|  | 
 
 ### Return type
 
-[**Link**](Link.md)
+[**Resource**](Resource.md)
 
 ### Authorization
 
@@ -229,8 +229,8 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **apilinks_read**
-> Link apilinks_read(id)
+# **apiresources_read**
+> Resource apiresources_read(id)
 
 
 
@@ -251,25 +251,25 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = infodbclient.ApilinksApi(infodbclient.ApiClient(configuration))
-id = 56 # int | A unique integer value identifying this link.
+api_instance = infodbclient.ApiresourcesApi(infodbclient.ApiClient(configuration))
+id = 56 # int | A unique integer value identifying this resource.
 
 try:
-    api_response = api_instance.apilinks_read(id)
+    api_response = api_instance.apiresources_read(id)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ApilinksApi->apilinks_read: %s\n" % e)
+    print("Exception when calling ApiresourcesApi->apiresources_read: %s\n" % e)
 ```
 
 ### Parameters
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **int**| A unique integer value identifying this link. | 
+ **id** | **int**| A unique integer value identifying this resource. | 
 
 ### Return type
 
-[**Link**](Link.md)
+[**Resource**](Resource.md)
 
 ### Authorization
 
@@ -282,8 +282,8 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **apilinks_update**
-> Link apilinks_update(id, data)
+# **apiresources_update**
+> Resource apiresources_update(id, data)
 
 
 
@@ -304,27 +304,27 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = infodbclient.ApilinksApi(infodbclient.ApiClient(configuration))
-id = 56 # int | A unique integer value identifying this link.
-data = infodbclient.Link() # Link | 
+api_instance = infodbclient.ApiresourcesApi(infodbclient.ApiClient(configuration))
+id = 56 # int | A unique integer value identifying this resource.
+data = infodbclient.Resource() # Resource | 
 
 try:
-    api_response = api_instance.apilinks_update(id, data)
+    api_response = api_instance.apiresources_update(id, data)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ApilinksApi->apilinks_update: %s\n" % e)
+    print("Exception when calling ApiresourcesApi->apiresources_update: %s\n" % e)
 ```
 
 ### Parameters
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **int**| A unique integer value identifying this link. | 
- **data** | [**Link**](Link.md)|  | 
+ **id** | **int**| A unique integer value identifying this resource. | 
+ **data** | [**Resource**](Resource.md)|  | 
 
 ### Return type
 
-[**Link**](Link.md)
+[**Resource**](Resource.md)
 
 ### Authorization
 

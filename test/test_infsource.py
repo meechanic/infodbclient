@@ -16,12 +16,12 @@ from __future__ import absolute_import
 import unittest
 
 import infodbclient
-from infodbclient.models.link import Link  # noqa: E501
+from infodbclient.models.infsource import Infsource  # noqa: E501
 from infodbclient.rest import ApiException
 
 
-class TestLink(unittest.TestCase):
-    """Link unit test stubs"""
+class TestInfsource(unittest.TestCase):
+    """Infsource unit test stubs"""
 
     def setUp(self):
         pass
@@ -29,10 +29,10 @@ class TestLink(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def testLink(self):
-        """Test Link"""
+    def testInfsource(self):
+        """Test Infsource"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = infodbclient.models.link.Link()  # noqa: E501
+        # model = infodbclient.models.infsource.Infsource()  # noqa: E501
         pass
 
 
