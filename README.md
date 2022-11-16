@@ -88,6 +88,12 @@ Class | Method | HTTP request | Description
 *ApiinfsourcesApi* | [**apiinfsources_partial_update**](docs/ApiinfsourcesApi.md#apiinfsources_partial_update) | **PATCH** /apiinfsources/{id}/ | 
 *ApiinfsourcesApi* | [**apiinfsources_read**](docs/ApiinfsourcesApi.md#apiinfsources_read) | **GET** /apiinfsources/{id}/ | 
 *ApiinfsourcesApi* | [**apiinfsources_update**](docs/ApiinfsourcesApi.md#apiinfsources_update) | **PUT** /apiinfsources/{id}/ | 
+*ApiinfsourcetagsApi* | [**apiinfsourcetags_create**](docs/ApiinfsourcetagsApi.md#apiinfsourcetags_create) | **POST** /apiinfsourcetags/ | 
+*ApiinfsourcetagsApi* | [**apiinfsourcetags_delete**](docs/ApiinfsourcetagsApi.md#apiinfsourcetags_delete) | **DELETE** /apiinfsourcetags/{id}/ | 
+*ApiinfsourcetagsApi* | [**apiinfsourcetags_list**](docs/ApiinfsourcetagsApi.md#apiinfsourcetags_list) | **GET** /apiinfsourcetags/ | 
+*ApiinfsourcetagsApi* | [**apiinfsourcetags_partial_update**](docs/ApiinfsourcetagsApi.md#apiinfsourcetags_partial_update) | **PATCH** /apiinfsourcetags/{id}/ | 
+*ApiinfsourcetagsApi* | [**apiinfsourcetags_read**](docs/ApiinfsourcetagsApi.md#apiinfsourcetags_read) | **GET** /apiinfsourcetags/{id}/ | 
+*ApiinfsourcetagsApi* | [**apiinfsourcetags_update**](docs/ApiinfsourcetagsApi.md#apiinfsourcetags_update) | **PUT** /apiinfsourcetags/{id}/ | 
 *ApiresourcesApi* | [**apiresources_create**](docs/ApiresourcesApi.md#apiresources_create) | **POST** /apiresources/ | 
 *ApiresourcesApi* | [**apiresources_delete**](docs/ApiresourcesApi.md#apiresources_delete) | **DELETE** /apiresources/{id}/ | 
 *ApiresourcesApi* | [**apiresources_list**](docs/ApiresourcesApi.md#apiresources_list) | **GET** /apiresources/ | 
@@ -101,6 +107,7 @@ Class | Method | HTTP request | Description
  - [AuthToken](docs/AuthToken.md)
  - [Edition](docs/Edition.md)
  - [Infsource](docs/Infsource.md)
+ - [InfsourceTag](docs/InfsourceTag.md)
  - [Resource](docs/Resource.md)
 
 

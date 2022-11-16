@@ -2,46 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1833462e-b2a4-4e25-9d51-0e9b8c889ea2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/Infsource.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Resource.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infodbclient/models/edition.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infodbclient/models/infsource.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infodbclient/models/resource.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_apieditions_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_apiinfsources_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_apiresources_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/infodbcli.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/infodbcli.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ApilinksApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ApiresourcesApi.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ApilinktagsApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ApieditionsApi.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ApisourcesApi.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ApisourcetagsApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ApiinfsourcesApi.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Link.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/LinkTag.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Edition.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Source.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SourceTag.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Resource.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Resource.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infodbclient/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/infodbclient/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infodbclient/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/infodbclient/api/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infodbclient/api/apilinks_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/infodbclient/api/apiresources_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infodbclient/api/apilinktags_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/infodbclient/api/apieditions_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infodbclient/api/apisources_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/infodbclient/api/apisourcetags_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/infodbclient/api/apiinfsources_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infodbclient/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/infodbclient/helpers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infodbclient/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/infodbclient/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infodbclient/models/link.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/infodbclient/models/link_tag.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/infodbclient/models/source.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/infodbclient/models/source_tag.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_apilinks_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_apilinktags_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_apisources_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_apisourcetags_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_link.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_resource.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_link_tag.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_infsource.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_source.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_edition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_source_tag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infodbclient/models/resource.py" beforeDir="false" afterPath="$PROJECT_DIR$/infodbclient/models/resource.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +19,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

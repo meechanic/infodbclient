@@ -18,4 +18,5 @@ from __future__ import absolute_import
 from infodbclient.models.auth_token import AuthToken
 from infodbclient.models.edition import Edition
 from infodbclient.models.infsource import Infsource
+from infodbclient.models.infsource_tag import InfsourceTag
 from infodbclient.models.resource import Resource

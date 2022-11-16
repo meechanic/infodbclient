@@ -19,6 +19,7 @@ from __future__ import absolute_import
 from infodbclient.api.api_token_auth_api import ApiTokenAuthApi
 from infodbclient.api.apieditions_api import ApieditionsApi
 from infodbclient.api.apiinfsources_api import ApiinfsourcesApi
+from infodbclient.api.apiinfsourcetags_api import ApiinfsourcetagsApi
 from infodbclient.api.apiresources_api import ApiresourcesApi
 
 # import ApiClient
@@ -28,4 +29,5 @@ from infodbclient.configuration import Configuration
 from infodbclient.models.auth_token import AuthToken
 from infodbclient.models.edition import Edition
 from infodbclient.models.infsource import Infsource
+from infodbclient.models.infsource_tag import InfsourceTag
 from infodbclient.models.resource import Resource
